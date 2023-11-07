@@ -4,7 +4,7 @@ Debug zenroom output online
 For when you are too lazy to type
 
 ```bash
-When you are too lazy to type:zenroom -z -c "logfmt=json" broken.zen 2>&1 >/dev/null | grep "J64"| cut -d" " -f3|cut -d"\"" -f1|base64 -d|jq
+zenroom -z -c "logfmt=json" broken.zen 2>&1 >/dev/null | grep "J64"| cut -d" " -f3|cut -d"\"" -f1|base64 -d|jq
 ```
 
 
